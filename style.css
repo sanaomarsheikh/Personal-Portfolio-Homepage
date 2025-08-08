@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #5c1344, #2f2233);
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contact-btn {
+  background-color: #ca5e9a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px #00000020;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  display: block;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.hire-btn {
+  background: linear-gradient(90deg, #4e1850, #d44ec9);
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px #00000020;
+}
+
+.hero-image {
+  position: relative;
+  width: 380px;
+  height: 480px;
+  border-radius: 190px;
+  overflow: hidden;
+  background-color: #5c214f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+
+/* Skills Section */
+.skills {
+  padding: 60px 80px;
+  background-color: #3b2430;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.skill {
+  margin-bottom: 25px;
+}
+
+.skill label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.progress-bar {
+  background-color: #5c1344;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #b03fa1, #d44ec9);
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 20px;
+}
+
+/* Badge Style */
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.badge {
+  background-color: #5c1344;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+/* Projects Section */
+.projects {
+  padding: 60px 80px;
+  background-color: #2f2233;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #3b2430;
+  border-radius: 15px;
+  padding: 20px;
+  flex: 1 1 calc(33% - 30px);
+  min-width: 280px;
+  box-shadow: 0 4px #00000020;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  color: #d44ec9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+/* Contact Section */
+.contact {
+  padding: 60px 80px;
+  background-color: #3b2430;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.contact-info i {
+  color: #d44ec9;
+  margin-right: 8px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #d44ec9;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 15px;
+  color: #d44ec9;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #d44ec9;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  background: linear-gradient(90deg, #4e1850, #d44ec9);
+  color: #f3f3f3;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #d44ec9, #4e1850);
+}
