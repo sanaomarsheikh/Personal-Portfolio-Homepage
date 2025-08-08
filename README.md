@@ -19,5 +19,6 @@ It features a clean layout with styling and scripting for interactive elements.
 ## ⚙ Installation
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-1.git
+   https://github.com/sanaomarsheikh/Personal-Portfolio-Homepage/tree/main
+
 
